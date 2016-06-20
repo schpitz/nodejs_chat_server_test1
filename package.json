@@ -5,9 +5,9 @@
   "engines": {
     "node": "5.9.1"
   },
-  "main": "indext.html",
+  "main": "server.server",
   "scripts": {
-//    "start": "node server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "ejs": "2.4.1",
