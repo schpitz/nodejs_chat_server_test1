@@ -10,12 +10,12 @@
     "start": "node server.js"
   },
   "dependencies": {
-//    "ejs": "2.4.1",
-//    "express": "4.13.3"
+    "ejs": "2.4.1",
+    "express": "4.13.3"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/schpitz/nodejs_chat_server_test1"
+    "url": "git+https://github.com/schpitz/nodejs_chat_server_test1.git"
   },
   "keywords": [
     "node",
@@ -23,5 +23,11 @@
     "socket.io",
     "mongodb"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schpitz/nodejs_chat_server_test1/issues"
+  },
+  "homepage": "https://github.com/schpitz/nodejs_chat_server_test1#readme",
+  "devDependencies": {},
+  "author": "Schpitz"
 }
