@@ -1,8 +1,8 @@
 {
   "name": "Node.js Getting Started",
   "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/schpitz/nodejs_chat_server_test1",
+  "repository": "https://git.heroku.com/polar-tundra-59121",
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["node", "socket.io", "mongodb"],
+  "keywords": ["node", "socket.io", "mongodb" ],
   "image": "heroku/nodejs"
 }
