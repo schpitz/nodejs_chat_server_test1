@@ -33,8 +33,8 @@
 
     var socket;
     try {
-        // socket = io.connect('http://127.0.0.1:8080');
-        socket = io.connect('http://ludo1.herokuapp.com:8080');
+        socket = io.connect('http://127.0.0.1:8080');
+        // socket = io.connect('http://ludo1.herokuapp.com:8080');
     } catch (e) {
         // Warn user
         console.log("error! can't find mongoDB server");
