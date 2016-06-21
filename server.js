@@ -15,7 +15,7 @@ var url = require("url");
 var path = require("path");
 var fs = require("fs");
 //Port number to use
-var port = process.argv[2] || 8000;
+var port = process.argv[2] || 1080;
 //Colors for CLI output
 var WHT = "\033[39m";
 var RED = "\033[91m";
@@ -50,7 +50,7 @@ http.createServer(function (request, response) {
             //Output a green line to the console explaining what folder was requested
             console.log(GRN + "FLDR: " + WHT + filename);
             //redirect the user to the index.html in the requested folder
-            filename += 'chat.html';
+            filename += './public/chat.html';
         }
 
         //Assuming the file exists, read it
