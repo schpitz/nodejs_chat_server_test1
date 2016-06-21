@@ -6,9 +6,9 @@
     "node": "5.9.1"
   },
   "main": "index.html",
-  "scripts": {
+//  "scripts": {
 //    "start": "node server.js"
-  },
+//  },
   "dependencies": {
     "ejs": "2.4.2",
     "express": "4.14.0",
