@@ -7,6 +7,21 @@ console.log('server work!!!');
 var mongo = require('mongodb').MongoClient;
 var client = require('socket.io').listen(8080).sockets;
 
+var http = require('http');
+var fs = require('fs');
+
+fs.readFile('./chat.html', function (err, html) {
+    if (err) {
+        throw err;
+    }
+    http.createServer(function(request, response) {
+        response.writeHeader(200, {"Content-Type": "text/html"});
+        response.write(html);
+        response.end();
+    }).listen(8000);
+});
+
+
 
 // Note:
 // Use mentioned address and specific database (chat), but we need to mention it on the 'mongo.exe' to check it (unless it won't be visible)

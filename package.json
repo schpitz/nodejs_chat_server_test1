@@ -5,11 +5,13 @@
   "engines": {
     "node": "5.9.1"
   },
-  "main": "index.html",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.html"
+    "start": "node server.js"
   },
   "dependencies": {
+    "fs": "0.0.2",
+    "http": "0.0.0",
     "mongodb": "2.1.18",
     "socket.io": "1.4.6"
   },

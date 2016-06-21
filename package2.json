@@ -5,7 +5,7 @@
   "engines": {
     "node": "5.9.1"
   },
-  //  "main": "index.html",
+  //  "main": "chat.html",
   //  "scripts": {
   //    "start": "node server.js"
   //  },
