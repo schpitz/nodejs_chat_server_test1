@@ -12,6 +12,7 @@
   "dependencies": {
     "connect": "^3.4.1",
     "express": "^4.14.0",
+    "fileserver": "^0.2.2",
     "fs": "0.0.2",
     "http": "0.0.0",
     "mongodb": "2.1.18",
